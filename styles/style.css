@@ -1,6 +1,11 @@
 html {
     height: 100%;
     font-size: 12px;
+    -khtml-transition: height 1.5s ease;
+    -moz-transition: height 1.5s ease;
+    -ms-transition: height 1.5s ease;
+    -o-transition: height 1.5s ease;
+    -webkit-transition: height 1.5s ease;
 }
 
 body {
@@ -9,44 +14,10 @@ body {
     position: relative;
 }
 
-html {
-
-    -khtml-transition: height 1.5s ease;
-    -moz-transition: height 1.5s ease;
-    -ms-transition: height 1.5s ease;
-    -o-transition: height 1.5s ease;
-    -webkit-transition: height 1.5s ease;
-    //transition: height 1.5s ease;
-
-}
-
-
-/*body { 
-    height: 100%;
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box;    
-    box-sizing: border-box;         
-    background-color: #9a9;
-} */
-
-
-.football-field {
-    // background-color: yellow;
-   
-   // top: 0px;
-  //  left: 0px;
-  //  height: 100%;
-  //  width: 100%;
-}
-
 .ball-area {
     position: absolute;
     top: 40%;
     left: 45%;
     width: 100px;
     height: 100px;
-    //margin: 20% 0 0 45%;
-    //margin-top: 20%;
-    //margin-left: 45%;
-    //background-color: red;
 }

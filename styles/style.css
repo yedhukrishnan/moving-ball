@@ -1,11 +1,6 @@
 html {
     height: 100%;
     font-size: 12px;
-    -khtml-transition: height 1.5s ease;
-    -moz-transition: height 1.5s ease;
-    -ms-transition: height 1.5s ease;
-    -o-transition: height 1.5s ease;
-    -webkit-transition: height 1.5s ease;
 }
 
 body {
@@ -20,4 +15,9 @@ body {
     left: 45%;
     width: 100px;
     height: 100px;
+    -khtml-transition: top, left .5s ease;
+    -moz-transition: top, left .5s ease;
+    -ms-transition: top, left .5s ease;
+    -o-transition: top,left .5s ease;
+    -webkit-transition: top, left .5s ease;
 }

@@ -15,9 +15,9 @@ body {
     left: 45%;
     width: 100px;
     height: 100px;
-    -khtml-transition: top, left .5s ease;
-    -moz-transition: top, left .5s ease;
-    -ms-transition: top, left .5s ease;
-    -o-transition: top,left .5s ease;
-    -webkit-transition: top, left .5s ease;
+    -khtml-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
 }

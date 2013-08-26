@@ -1,6 +1,7 @@
 var moveBall = function(move) {
     try {
         ballArea = $(".ball-area");
+        // Get the current position of the ball from data attribute
         var leftValue = +ballArea.data(move.direction);       
         // Check if the key press is an arrow key.
 	if(((leftValue + move.offset) != -1) && ((leftValue + move.offset) != 92))
